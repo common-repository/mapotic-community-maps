@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'mapotic';
+    src: url('fonts/mapotic.eot');
+    src: url('fonts/mapotic.eot?#iefix') format('embedded-opentype'),
+         url('fonts/mapotic.woff') format('woff'),
+         url('fonts/mapotic.ttf') format('truetype'),
+         url('fonts/mapotic.svg#mapotic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+[class*='dashicons-mapotic']:before{
+    content:'\0041';
+	display: inline-block;
+   font-family: 'mapotic';
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale
+}
